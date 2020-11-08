@@ -1,0 +1,19 @@
+.lista div, .lista a{
+    color: black !important;
+}
+
+
+h3{
+    font-size: 30px;
+    margin: 15px;
+}
+
+
+.titulo a {
+    text-decoration:none;
+    color: white;
+}
+
+.item div:hover{
+    background-color: royalblue;
+}

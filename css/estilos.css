@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    text-align: justify;
+    color: black;
+}
+
+
+header{
+    height: 80px;
+}
+
+header h1{
+    margin: 5px 30px;
+    font-size: 40px;
+}
+.ui-menu { 
+    width: fit-content; 
+}
+
+nav{
+    display: flex;
+    background-color:;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: transparent;
+    width: 100%;
+}
+
+.lista ul li{
+    background-color: transparent;
+    margin: 10px;
+    list-style: none;
+}
+
+.lista div, .lista a{
+    background-color: transparent;
+    border: none !important;
+    color: white !important;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.lista{
+    background-color: transparent;
+    list-style: none;
+}
+
+.selec{
+    background-color: #2088b980;
+}
+
+.item div:hover{
+    background-color: royalblue;
+}
+
+
+#menu ul li div{
+    border: 1px solid black;
+    margin: 1px;
+}
+
+#img_tolte{
+    width: 300px;
+}
+
+#tabs,#accordion{
+    margin-top: 50px;
+}
+
+#draggable,#draggable2,#draggable3,#draggable4{
+    top: 60px;
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+}
+
+.titulo{
+    background-color: rgb(3, 3, 3);
+    width: 300px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.imgLugares{
+    width: 300px ;
+    overflow: hidden;
+}
+
+.soltar{
+    width: 350px;
+    height: 250px;
+    border: solid 1px black;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: -1;
+}
+
+.soltar p{
+    position: relative;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.soltado{
+    background-color: rgb(255, 51, 0);
+}
+
+#dialog{
+    display: none;
+}
+
+
+#caja{
+    margin: 40px auto;
+    width: 90%;
+    border: solid 1px black;
+    
+}
+
+#imagen{
+    display: inline-block;
+    width: 60%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#descrip{
+    position: relative;
+    bottom: 70px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    width: 39%;
+
+}

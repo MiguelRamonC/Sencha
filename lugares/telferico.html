@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../jslib/theme-neptune/resources/theme-neptune-all.css">
+    <script type="text/javascript" src="../jslib/ext-all.js"></script>
+    <script type="text/javascript" src="../jslib/theme-neptune/theme-neptune.js"></script>
+    <script type="text/javascript" src="../js/selectores.js"></script>
+   
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estiloLugares.css">
+    <title>Teleférico</title>
+</head>
+<body>
+    <header>
+        <h1>Orizaba pueblo mágico</h1>
+        <h3>Teleférico</h3>
+      </header>
+
+      <nav>
+        <ul id="menu">
+          <li class="lista item"> <div><a href="../index.html"> Inicio </a>
+
+             <li class="lista item"> <div><a href="../historia.html"> Historia </a>
+            </li>   
+    
+            <li class="lista item"> <div>Lugares</div>
+                <ul>
+                    <li class="item"><div><a href="lugares.html">Ver Todos</a></div></li>
+                    <li class="item"><div><a href="telferico.html">Teleférico</a></div></li>
+                    <li class="item"><div><a href="paseo.html">Ojo de Agua</a></div></li>
+                    <li class="item"><div><a href="paseo.html">Pase del Río</a></div></li>
+                    <li class="item"><div><a href="alameda.html">Alameda</a></div></li>
+                    <li class="item"><div><a href="palacio.html">Palacio de Hierro</a></div></li>
+                    <li class="item"><div><a href="biori.html">BIORI</a></div></li>
+                </ul>
+            </li>
+            
+            <li class="lista item"><div>Leyendas</div>
+                <ul>
+                    <li><div><a href="../leyendas.html">La Niña y el Ángel</a></div></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+      <div id="caja">
+        <img id="imagen" src="../img/teleferico.jpg" alt="">
+            
+        <p id="descrip">El teleférico fue construido por Leitner Poma, empresa con más de 60 años de experiencia y más de 8,000 teleféricos construidos en el mundo.
+        Las únicas condiciones por las que se detiene su operación son por fuertes rachas de viento, superiores a los 50 km/h, y por tormentas eléctricas.
+        El Eco Parque Cerro del Borrego es el lugar al que el teleférico te llevará. En la cima de este lugar podrás admirar las vistas de la ciudad y el Pico de Orizaba, disfrutar de la naturaleza, vivir una aventura extrema al lanzarte en tirolesa o revivir la batalla ahí librada contra el ejército francés en 1862.</p>
+
+       </div>
+      
+
+       <script>
+        $(document).ready(function(){
+          $("#menu").menu({
+              position: { my: "center top", at: "right bottom" }
+          }); 
+      });
+     </script>
+</body>
+</html>

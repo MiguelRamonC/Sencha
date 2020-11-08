@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../jslib/theme-neptune/resources/theme-neptune-all.css">
+    <script type="text/javascript" src="../jslib/ext-all.js"></script>
+    <script type="text/javascript" src="../jslib/theme-neptune/theme-neptune.js"></script>
+    <script type="text/javascript" src="../js/selectores.js"></script>
+
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estiloLugares.css">
+    <title>Palacio de Hierro</title>
+</head>
+<body>
+    <header>
+        <h1>Orizaba pueblo mágico</h1>
+        <h3>Palacio de Hierro</h3>
+      </header>
+
+      <nav>
+        <ul id="menu">
+          <li class="lista item"> <div><a href="../index.html"> Inicio </a>
+
+             <li class="lista item"> <div><a href="../historia.html"> Historia </a>
+            </li>   
+    
+            <li class="lista item"> <div>Lugares</div>
+                <ul>
+                    <li><div><a href="lugares.html">Ver Todos</a></div></li>
+                    <li><div><a href="telferico.html">Teleférico</a></div></li>
+                    <li><div><a href="paseo.html">Ojo de Agua</a></div></li>
+                    <li><div><a href="paseo.html">Pase del Río</a></div></li>
+                    <li><div><a href="alameda.html">Alameda</a></div></li>
+                    <li><div><a href="palacio.html">Palacio de Hierro</a></div></li>
+                    <li><div><a href="biori.html">BIORI</a></div></li>
+                </ul>
+            </li>
+            
+            <li class="lista item"><div>Leyendas</div>
+                <ul>
+                    <li><div><a href="../leyendas.html">La Niña y el Ángel</a></div></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+      <div id="caja">
+        <img id="imagen" src="../img/palacio.jpg" alt="">
+            
+        <p id="descrip">Esta joya de la arquitectura es desarmable y está construida completamente en hierro. Se adquirió por la ciudad a inicios de la última década de 1890 y fue construida en Bruselas, Bélgica, desde donde se envío en buques. Se inauguró el 16 de septiembre de 1894.
+          En este lugar podrás disfrutar de los Museos: Cuna del Fútbol, de la Cerveza, Raíces de Orizaba (MURO), Interactivo y Planetario Rodolfo Neri Vela. Cuenta con la sala Eiffel, ideal para reuniones de trabajo. Aquí también se encuentran la oficina de Turismo, una tienda de souvenirs y un café.</p>
+
+       </div>
+      
+
+       <script>
+        $(document).ready(function(){
+          $("#menu").menu({
+              position: { my: "center top", at: "right bottom" }
+          }); 
+      });
+     </script>
+</body>
+</html>
